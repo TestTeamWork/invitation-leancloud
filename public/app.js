@@ -45,19 +45,7 @@ $(document).ready(function () {
             }
             //using anchorLink
             if (anchorLink == '3rdPage') {
-                $("#text2").typed({
-                    strings: ["时间：2015年9月5号， 周六^500<br/>天津惠中酒店^500<br/>"+
-                    "地址：<a href='http://ditu.amap.com/search?query=%E5%A4%A9%E6%B4%A5%E5%B8%82+"+
-                    "%E6%BB%A8%E6%B5%B7%E6%96%B0%E5%8C%BA+"+
-                    "%E5%A4%A9%E6%B4%A5%E6%83%A0%E4%B8%AD%E9%85%92%E5%BA%97&city=120000' target='_blank'>天津市 滨海新区 第三大街3号芳林泰达园A座</a><br/>"+
-                    "交通：如果您乘坐公交，可在到达塘沽站之后在 赵家地 站上车，" +
-                    "518路内环(轻轨东海路-轻轨东海路) 至 南海路站下车，请不要将贵重物品遗忘在车上哦。"],
-                    typeSpeed: 80,
-                    backDelay: 1000,
-                    loop: false,
-                    showCursor: false,
-                    loopCount: false,
-                });
+                $("#text2").fadeIn(1000,"swing");
             }
         }
     });
@@ -88,17 +76,6 @@ $(document).ready(function () {
             duration: 1700,
             loop: true
         });
-
-    // animation of the twinkling star
-    //$('.twinkling').velocity(
-    //    {
-    //        backgroundPositionY: ["-500px", "1000px"],
-    //        backgroundPositionX: ["-500px", "1000px"]
-    //    },
-    //    {
-    //        duration: 32500,
-    //        loop: true
-    //    });
 //animation for the flower
     $(window).load(function () {
         $('body').sakura();
@@ -117,17 +94,6 @@ $(document).ready(function () {
             opacity: 1
         }, 1000);
     });
-
-    //animation for the button
-    //document.getElementById('button').onclick = (function () {
-    //    document.getElementsByTagName('span')[0].innerHTML = '期待您的光临!';
-    //    return false;
-    //});
-    //document.getElementById('button2').onclick = (function () {
-    //    document.getElementsByTagName('span')[1].innerHTML = '谢谢，祝您生活愉快！';
-    //    return false;
-    //});
-
     //play the audio
     var vid = document.getElementById("player");
 
