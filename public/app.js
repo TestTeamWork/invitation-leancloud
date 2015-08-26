@@ -114,7 +114,7 @@ console.log(isIOS);
     $("#speaker").click(function () {
         if (count == 0) {
             vid.play();
-            $("#speaker").css({"backgroundPositionX": "-=55%"}, "slow", "swing");
+            $("#speaker").animate({"backgroundPositionX": "-=55%"}, "slow", "swing");
             //$("#speaker").css("backgroundPositionX", "-=70%");
             count = 1;
         }
