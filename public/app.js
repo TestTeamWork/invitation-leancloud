@@ -15,37 +15,29 @@ $(document).ready(function () {
                     backDelay: 1000,
                     loop: false,
                     showCursor: false,
-                    loopCount: false,
+                    loopCount: false
                 });
             }
             if (anchorLink == '2ndPage') {
                 // animation for the text
                 $("#text1").typed({
-                    strings: ["一份意外降临的感情<br/>" +
-                    "一场跨州跨洋的爱恋<br/>" +
-                    "从相遇到相恋到如今步入婚姻<br/>" +
-                    "貌似不可思议，貌似意想不到<br/>" +
-                    "我们也迷茫也怀疑也犹豫过<br/>" +
-                    "但和后来我们打算在一起的决心相比<br/>" +
-                    "那些貌似的不可能都只是浮云<br/>" +
-                    "梁思成问林徽因：'为什么是我？'<br/>"+
-                    "林徽因答：'答案很长，我得用一生去回答你'<br/>"+
-                    "<br/>" +
+                    strings: ["缘分让我们 相遇，相识<br/>" +
+                    "爱恋让我们 相知，相守<br/>" +
+                    "我们诚挚地邀请您来见证这份感情<br>"+
+                    "分享这份甜蜜!<br/><br/>" +
                     "新郎： 徐海明<br/>" +
-                    "新娘： 严智慧<br/>" +
-                    "<br/><br/>" +
-                    "宴席很短<br>" +
-                    "祝福却能长留心中"],
+                    "新娘： 严智慧<br/>"
+                    ],
                     typeSpeed: 100,
                     backDelay: 1000,
                     loop: false,
                     showCursor: false,
-                    loopCount: false,
+                    loopCount: false
                 });
             }
             //using anchorLink
             if (anchorLink == '3rdPage') {
-                $("#text2").fadeIn(1000,"swing");
+                $("#fade-content").fadeIn(1500,"swing");
             }
         }
     });
