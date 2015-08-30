@@ -4,7 +4,7 @@ h1{font-size:2em;font-family:Georgia, "Times New Roman", "KaiTi", "楷体", STKa
 h2{font-size:2em;font-family:Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;color:#fff;margin:0;padding:0;line-height:1.5em;}
 h3{font-size:1em;font-family:Arial, Helvetica, "Hiragino Sans GB", "Microsoft YaHei","WenQuanYi Micro Hei", sans-serif;color:#fff;margin:0;padding:0;line-height:1.5em;}
 .slide{text-align:center;}
-#mapContainer{height:80%;width:80%;margin:0 auto;z-index:99;}
+#mapContainer{height:100%;width:100%;margin:0 auto;z-index:99;}
 #hotelPic{width: 80%;}
 .left,.right{display:inline-block}
 .left{width:170px;height:239px;margin-right:-4px}

@@ -8,9 +8,37 @@
     <meta name="description" content="the wedding invitation"/>
     <meta name="keywords" content="animation,velocity"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="http://webapi.amap.com/maps?v=1.3&key=acb984757b71c97aed67d2e830bf29d5"></script>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <style>
+        html,body { height: 100%; margin: 0px; padding: 0px; }
+    </style>
 </head>
 <body>
 
-<h1>MAP</h1>
+<div id="mapContainer"></div>
+
+<script>
+    var map = new AMap.Map('mapContainer', {
+        // 设置中心点
+        center: [117.702119, 39.031116],
+        // 设置缩放级别
+        zoom: 15
+    });
+
+    var marker = new AMap.Marker({
+        //复杂图标
+        icon: new AMap.Icon({
+            //图标大小
+            size: new AMap.Size(50, 50),
+            //大图地址
+            image: "imgs/maker.png",
+            imageOffset: new AMap.Pixel(0, 0)
+        }),
+        //在地图上添加点
+        position: [117.701919, 39.031253]
+    });
+    marker.setMap(map);
+</script>
 </body>
 </html>
